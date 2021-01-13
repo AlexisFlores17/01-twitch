@@ -1,0 +1,35 @@
+
+.Seccion{
+    height: 100vh;
+    width: 100%;
+}
+
+.Seccion2{
+    .CuerpoS2{
+        height: 100%;
+        background-color: orange;
+        font-size: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+.Seccion3{
+    .CuerpoS3{
+        height: 100%;
+        background-color:brown;
+    }
+}
+.Seccion4{
+    .CuerpoS4{
+        height: 85%;
+        background-color:cyan;
+    }
+    .Footer{
+        height: 15%;
+        background-color: crimson;
+    }
+}

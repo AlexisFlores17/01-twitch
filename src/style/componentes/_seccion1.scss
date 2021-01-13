@@ -1,0 +1,58 @@
+$imageSec1: url('../../images/imagenSec1.jpg');
+$imagenCuerpo1: url('../../images/imagenCuerpo1.jpg');
+
+
+.Seccion1{
+    .Header{
+        height: 20%;
+        background-color: rgba($color: #000000, $alpha: 0.5);            
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // background: $imageHeader;
+        // background-size: 100% 100%;
+        
+        .TextoHeader{
+            font-size: 100px;
+            color: white;
+        }
+    }
+    .CuerpoS1{
+        height: 80%;
+        background-color:rgba($color: purple, $alpha: 0.2);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .Columnas{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 50%;
+            height: 100%;
+            .imagenCuerpo1{
+                height: 60%;
+                width: 60%;
+                background: $imagenCuerpo1;
+                background-size: 100% 100%;
+            }
+            p{  
+                height: 20%;
+                width: 80%;
+                color: white;
+            }
+
+        }
+
+    }        
+    .imagenSec1{
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+        height: 200%;
+        background: $imageSec1;
+        background-size: 100% 100%;
+    }
+}
